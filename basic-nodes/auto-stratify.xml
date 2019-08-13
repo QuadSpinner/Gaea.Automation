@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Exposed>
+    <Parameter Name="File" 
+               Type="in" 
+               Variable="fileInput" 
+               Default="" />
+    <Parameter Name="Output" 
+               Type="out" 
+               Variable="fileOutput" 
+               Default="" />
+    <Parameter Name="Strength" 
+               Type="double" 
+               Variable="strength" 
+               Min="0" 
+               Max="0.3" 
+               Default="0.1" />
+    <Parameter Name="Substrata" 
+               Type="double" 
+               Variable="substrata" 
+               Min="0" 
+               Max="1" 
+               Default="0" />
+    <Parameter Name="Filtered" 
+               Type="bool" 
+               Variable="filtered" 
+               Default="True" />
+    <Parameter Name="Edge Blending" 
+               Type="choice" 
+               Variable="edgeblending" 
+               Choices="10%,12%,25%,50%,75%,100%" 
+               Min="0" 
+               Max="5" 
+               Default="1" />
+</Exposed>
